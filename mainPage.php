@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once 'templates.php'?>
+<?php 
+    require_once 'templates.php';
+    sessionMy();
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,7 +75,7 @@
                         <p class="center small-text">It was a project indeed</p>
                     </div>
                 </a>
-                <a href=".\projects\website\index.php"  class="hover">
+                <a href=".\projects\website\index.html"  class="hover">
                     <div class="project">
                         <div class="project-img">
                             <img  class="project-img" src=".\img\Harold.png" alt="">

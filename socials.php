@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once 'templates.php'?>
+<?php 
+    require_once 'templates.php';
+    sessionMy();
+?>
    
 <head>
     <meta charset="UTF-8">
