@@ -1,0 +1,20 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    border:solid 1px rgb(9, 0, 128);
+    padding: 5px;
+}
+
+h1{
+    color:blue;
+}
+h2{
+    color: red;
+}
+.testborder{
+    border:solid 1px green;
+}
+
+.images{
+    border:solid 2px blue;
+}

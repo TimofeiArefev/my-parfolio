@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.main__content{
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    margin: 50px;
+}

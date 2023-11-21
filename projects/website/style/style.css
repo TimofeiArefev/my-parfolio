@@ -1,0 +1,213 @@
+@font-face {
+    font-family: myFont;
+    src: url("../fonts/Commodore-64-v6.3.TTF");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.font__commodore{
+    font-family: myFont;
+}
+
+
+.color_red{
+    color: red;
+}
+.color_white{
+    color: white;
+}
+header{
+    z-index: 1;
+    position: sticky; 
+    top: 0px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 10px  rgb(0, 0, 0);
+}
+
+.header__container{
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: 1fr 1fr ;
+    gap: 50px;
+    height: 50px;
+}
+.header__left-part{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header__logo{
+    height: 50px;
+    
+}
+.header__logo-name{
+    color: red;
+    font-family: myFont;
+}
+.header-right-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.main_section-container{
+    margin-left: 15%;
+}
+.main__background-image {
+        background-image: url("../img/HeroBanner.png"); /* The image used */
+        background-color: #ffffff; /* Used if the image is unavailable */
+        height: 680px; /* You must set a specified height */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 1800px;
+}
+
+
+.main__information-box{
+    position: relative;
+    top: 150px;
+    height: 250px;
+    width: 250px;
+    background-color: #1e2a4e;
+    box-shadow:  10px 10px 5px  gray;
+    color: white;
+}
+
+.main__information-box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding: 7px;
+}
+
+
+.main__box-text-size{
+    font-size: 35px;
+}
+.main__small-box{
+    background-color: red;
+    height: 35px;
+    width: 120px;
+    box-shadow:  5px 5px 2px  black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__welcome-section{
+    box-shadow:  0px 10px 5px  gray;
+    background-color: #1e2a4e;
+    height: 250px;
+}
+.main__welcome-section-info{
+    margin-left: 28%;
+    margin-right: 28%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+.main__slogan{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.main__harold-image{
+    border-radius: 100%;
+    height: 100%;
+    position: relative;
+    top:-50px;
+}
+.main__harold-image-success{
+    border-radius: 100%;
+    width: 300px;
+}
+
+.main__products-section{
+    padding-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.main__products{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.main__product{
+    display: flex;
+    flex-direction: column;
+    width:  300px;
+    height: 560px;
+    justify-content: space-between;
+}
+.main__products-small-box{
+    background-color: red;
+    height: 45px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__contact-container{
+    padding-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.main__contact-grid{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 10px;
+}
+.main__conatct-flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.main__input {
+    border-style: inset;
+    border-color: black;
+    border-radius: 0px;
+    border-width: 2px;
+}
+.main__input-hight-standart{
+    height: 30px;
+}
+.main__textarea{
+    resize: none;
+    height: 80px;
+}
+.main__submit{
+    color: white;
+    height: 35px;
+    width: 70px ;
+    background-color: red;
+    border-width: 0px;
+}
+footer{
+    margin-top: 15px;
+    background-color: #1e2a4e;
+    height: 170px;
+}
+.footer_container{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
