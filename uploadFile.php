@@ -39,7 +39,7 @@
                     echo "<p>File name is tooooo big</p>";
                     $errors = TRUE;
                 }
-                $acceptedFileTypes = ["image/gif", "image/jpg", "image/jpeg", "image/gif"];
+                $acceptedFileTypes = ["image/png", "image/jpg", "image/jpeg", "image/gif"];
 
                 $fileinfo = finfo_open(FILEINFO_MIME_TYPE);
                 $uploadedFileType = finfo_file($fileinfo, $_FILES["file"]["tmp_name"]);
