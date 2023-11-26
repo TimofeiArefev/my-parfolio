@@ -53,7 +53,7 @@
             }
 
             if(!$errorFlag){
-                if(strlen($name) < 2){
+                if(strlen($name) < 3){
                     $errorFlag = true;
                     array_push($errors, "Please provide longer name");
                 }
@@ -61,9 +61,9 @@
                     $errorFlag = true;
                     array_push($errors, "Please provide valid email");
                 }
-                if(strlen($message) < 6){
+                if( count(explode(" ", $message)) < 6){
                     $errorFlag = true;
-                    array_push($errors, "Please provide longer message");
+                    array_push($errors, "Please provide message with more than 6 words");
                 }
                 if(!$errorFlag){
                     array_push( $_SESSION["comment"] ,"Dear  $name ,<br>
@@ -81,7 +81,7 @@
     <body>
         <?php topBar()?>
         <main>
-            <h1 class="center">Leave yout comment</h1>
+            <h1 class="center">Leave your comment</h1>
 
             
             <form class="center" action="comments.php" method="POST">
