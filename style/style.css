@@ -68,7 +68,9 @@ main{
     align-items: center;
     justify-content: center;
 }
-
+.main__file-handler{
+    margin: 10px;
+}
 .manage-size{
     width: 100px;
 }

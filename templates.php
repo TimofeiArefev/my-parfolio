@@ -12,6 +12,7 @@
                 <a class=""color-white" href="./mainPage.php">Home</a>
                 <p>Portfolio</p>
                 <a href="./socials.php">About</a>
+                <a href="./uploadFile.php">Files</a>
                 <a href="./comments.php">Comment</a>
                 <a href="./contactForm.php">Contact</a>
                 <a href="./myphp.php">PHP</a>
